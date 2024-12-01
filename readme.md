@@ -6,6 +6,8 @@ A comprehensive data pipeline leveraging Airflow, DBT, Google Cloud Platform (GC
 
 ![airflow-dbt](./images/airflow-dbt.png)
 
+![airflow-graph](./images/airflow-graph.png)
+
 ## 🛠️ Project Overview
 This project demonstrates an end-to-end implementation of a modern data stack:
 
