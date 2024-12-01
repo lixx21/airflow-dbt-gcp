@@ -9,10 +9,10 @@ A comprehensive data pipeline leveraging Airflow, DBT, Google Cloud Platform (GC
 ## 🛠️ Project Overview
 This project demonstrates an end-to-end implementation of a modern data stack:
 
-Airflow: Orchestrates the data pipeline with DAGs.
-DBT (Data Build Tool): Handles the transformation of data from the staging layer to the data warehouse and data mart.
-GCP: Serves as the cloud platform for data storage and warehouse management.
-Docker: Ensures all tools and dependencies are containerized for consistent development and deployment.
+1. Airflow: Orchestrates the data pipeline with DAGs.
+2. DBT (Data Build Tool): Handles the transformation of data from the staging layer to the data warehouse and data mart.
+3. GCP: Serves as the cloud platform for data storage and warehouse management.
+4. Docker: Ensures all tools and dependencies are containerized for consistent development and deployment.
 
 ## ✨ Features
 
@@ -21,7 +21,9 @@ Docker: Ensures all tools and dependencies are containerized for consistent deve
 2. Data Transformation with DBT:
 
 Staging Layer: Raw data is cleaned and standardized.
+
 Data Warehouse: Normalized data structure.
+
 Data Mart: Denormalized data for easy reporting and analytics.
 
 3. Cloud Integration: Leverages GCP's scalable infrastructure for efficient storage and querying.
@@ -71,5 +73,7 @@ docker-compose up --build -d
 ## Reference
 
 Setup DBT BigQuery
+
 https://docs.getdbt.com/docs/core/connect-data-platform/bigquery-setup
+
 https://medium.com/@perkasaid.rio/easiest-way-installing-dbt-for-bigquery-54d1c05f6dfe
