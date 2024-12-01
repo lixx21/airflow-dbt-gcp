@@ -35,8 +35,8 @@ Data Mart: Denormalized data for easy reporting and analytics.
 1. clone repo with ` git clone https://github.com/lixx21/airflow-dbt-gcp.git`
 2. Setup your Google Cloud Platform
 3. Create project in GCP and bucket in GCS and make sure your bucket location is in **US**
-4. Get your credential key from GCP IAM
-5. Fill the .env file with your environment:
+4. Get your credential key from GCP IAM (I would suggest you to store it inside [dags](./dags/) folder)
+5. Fill the [.env](./dags/.env) file with your environment:
 
 ```
 #.env
